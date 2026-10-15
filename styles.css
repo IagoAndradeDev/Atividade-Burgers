@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Clarity City", sans-serif;
+}
+
+body {
+    background-color: #d8d8d8;
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.container-buttons button {
+    width: 100%;
+    border: none;
+    background-color: #e9ebe8;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.container-buttons button:hover {
+    opacity: 0.8;
+    background-color: rgba(51, 51, 51, 0.11);
+    transform: scale(0.95);
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px
+}
+
+li {
+    background-color: #e9ebe8;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+li:hover {
+    opacity: 0.8;
+    background-color: rgba(51, 51, 51, 0.11);
+    transform: scale(0.95);
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.number {
+    color: #036308;
+    font-weight: 700;
+}
